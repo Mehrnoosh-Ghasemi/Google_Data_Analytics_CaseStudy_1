@@ -9,9 +9,9 @@ library(dplyr)
 
 # Loading all the excel files of last 12 months and apply them
 
-path <- "C:/Users/mehr/Desktop/case study 1/24 months/previous-12-months/excel-file/raw-excel"
+path <- "~/previous-12-months/excel-file/raw-excel"
 
-merge_file_name <- "C:/Users/mehr/Desktop/case study 1/24 months/previous-12-months/excel-file/raw-excel//merged_file.xlsx"
+merge_file_name <- "~/previous-12-months/excel-file/raw-excel//merged_file.xlsx"
 
 filenames_list <- list.files(path= path, full.names=TRUE)
 
